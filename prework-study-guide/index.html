@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -30,7 +32,12 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>A link at the bottom of the meta data of the head of your HTML is needed to have your CSS changes shown</li>
+          <li>If applying the same attributes to multiple sections such as < h1 > and < h2 > you only need to write that code once.</li>
+          <li>Format goes section title CSS is being applied to { property name: value }</li>
+          <li>class attribute name has to be identified before in every section</li>
         </ul>
       </section>
    
@@ -38,7 +45,8 @@
         <h2>Git</h2>
         <ul>
           <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git checkout "branch-name": switches to that branch</li>
+          <li>git checkout -b "branch-name": creates a new branch and switches to it</li>
           <li>git pull origin main: </li>
           <li>git add -A: stage changes, commit all files in the working branch</li>
           <li>git commit -m "insert description of adjustment made": Git repository is now up to date with our working directory!</li>
@@ -50,7 +58,22 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>Coding files are processed top down: so for JavaScript to have affect it's link is put at the bottom of the code</li>
+          <li>Note that whereas the style.css file is linked within the < head > element, the script.js file is linked within the < body > element.</li>
+          <li>A variable is simply a named container that allows us to store data in our code</li>
+          <li>JavaScript is a powerful programming language that can add interactivity to a website</li>
+          <li>You start by declaring a variable with the let keyword, followed by the name you give to the variable</li>
+          <li>A semicolon at the end of a line indicates where a statement ends. It is only required when you need to separate statements on a single line.</li>
+          <li>Some people believe it's good practice to have semicolons at the end of each statement</li>
+          <li>JavaScript is case sensitive. This means myVariable is not the same as myvariable</li>
+          <li>There are other rules for when you should and shouldn't use semicolons. </li>
+          <li>You retrieve the value by calling the variable name: myVariable; </li>
+          <li>After assigning a value to a variable, you can change it later in the code: let myVariable = "Bob"; myVariable = "Steve"; </li>
+          <li>A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false.</li>
+          <li>All other values, including a Boolean with the value of true, are considered truthy.</li>
+          <li>The strict equality operator (===) checks to see if two values are equal, and returns a Boolean result true if the values are equal and false if the values are not equal. </li>
+          <li></li>
+          <li></li>
         </ul>
       </section>
     </main>
@@ -58,5 +81,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
